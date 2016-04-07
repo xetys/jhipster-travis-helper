@@ -1,7 +1,7 @@
 #!/bin/bash
 
-export PATH=/home/david/npm-global/bin:$PATH
-export NPM_CONFIG_PREFIX=/home/david/npm-global
+export PATH=~/npm-global/bin:$PATH
+export NPM_CONFIG_PREFIX=~/.npm-packages
 # move a copy of travis
 mkdir travis
 cp -rf ../generator-jhipster/travis/* travis/
